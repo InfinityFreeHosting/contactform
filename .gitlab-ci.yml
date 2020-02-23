@@ -29,6 +29,7 @@ tarball:
     - rm .gitlab-ci.yml
     - rm .gitignore
     - rm composer.*
+    - rm -rf .git/
   artifacts:
     paths:
-      - ./
+      - ./*
