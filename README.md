@@ -1,5 +1,10 @@
 # Simple Contact Form with PHPMailer
 
+<p align="center">
+    <a href="https://gitlab.com/InfinityFree/contactform/-/commits/master" alt="Pipeline Status">
+        <img src="https://gitlab.com/InfinityFree/contactform/badges/master/pipeline.svg" /></a>
+</p>
+
 A simple contact form with PHPMailer, reCAPTCHA and Bootstrap.
 
 Use this to provide a simple contact form on your own website, and send the messages with SMTP. Or use this as a basis or example to create your own contact form. 
