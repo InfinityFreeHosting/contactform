@@ -4,7 +4,7 @@ stages:
 
 composer:
   stage: build
-  image: php:7.3-cli
+  image: php:7.4-cli
   before_script:
     - apt-get update
     - apt-get install -y git unzip
