@@ -12,7 +12,7 @@ jobs:
       with:
         php_version: "7.4"
     - run: |
-        zip contactform.zip vendor *.php
+        zip -r contactform.zip vendor *.php
     - uses: actions/upload-artifact@v3
       with:
         name: contactform
@@ -28,8 +28,6 @@ jobs:
       with:
         name: contactform
         path: dist
-    - run: |
-        ls -alh dist
     - uses: actions/create-release@v1
       id: create_release
       if: startsWith(github.ref, 'refs/tags/')
