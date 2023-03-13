@@ -11,14 +11,12 @@ jobs:
     - uses: php-actions/composer@v6
       with:
         php_version: "7.4"
+    - run: |
+        zip contactform.zip vendor *.php
     - uses: actions/upload-artifact@v3
       with:
         name: contactform
-        path: |
-          vendor/
-          *.php
-          *.md
-          !.*
+        path: contactform.zip
 
   release:
     runs-on: ubuntu-latest
@@ -47,5 +45,5 @@ jobs:
       with:
         upload_url: ${{ steps.create_release.outputs.upload_url }} # This pulls from the CREATE RELEASE step above, referencing it's ID to get its outputs object, which include a `upload_url`. See this blog post for more info: https://jasonet.co/posts/new-features-of-github-actions/#passing-data-to-future-steps
         asset_path: ./contactform.zip
-        asset_name: contactform.zip
+        asset_name: contactform
         asset_content_type: application/zip
