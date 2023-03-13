@@ -1,10 +1,5 @@
 # Simple Contact Form with PHPMailer
 
-<p align="center">
-    <a href="https://gitlab.com/InfinityFree/contactform/-/commits/master" alt="Pipeline Status">
-        <img src="https://gitlab.com/InfinityFree/contactform/badges/master/pipeline.svg" /></a>
-</p>
-
 A simple contact form with PHPMailer, reCAPTCHA and Bootstrap.
 
 Use this to provide a simple contact form on your own website, and send the messages with SMTP. Or use this as a basis or example to create your own contact form. 
@@ -24,7 +19,7 @@ To be able to send messages with this contact form, you'll need a working SMTP s
 A simple, free option to use is Gmail. You can use Gmail to send your messages like so:
 
 1. Sign up for a free Gmail account. 
-2. Enable Two Factor Authentication on the Google account: https://myaccount.google.com/signinoptions/two-step-verification
+2. Enable Two-Factor Authentication on the Google account: https://myaccount.google.com/signinoptions/two-step-verification
 3. Generate an App Specific Password for the account: https://myaccount.google.com/apppasswords
 4. In the configuration file, set the SMTP Hostname `smtp.gmail.com`, enter your full Gmail address in the SMTP Username field and enter the App Specific Password in the SMTP Password field.
 
@@ -32,7 +27,7 @@ A simple, free option to use is Gmail. You can use Gmail to send your messages l
 
 To prevent spammers from being able to abuse your contact form, reCAPTCHA has been integrated by default. reCAPTCHA is a free service from Google which can prevent automated scripts from using your form.
 
-This contact form has been integrated with reCAPTCHA v2 with the Checkbox challenge. To use this, you will need to setup your site in reCAPTCHA like so:
+This contact form has been integrated with reCAPTCHA v2 with the Checkbox challenge. To use this, you will need to set up your site in reCAPTCHA like so:
 
 1. Go to the reCAPTCHA admin console: https://www.google.com/recaptcha/admin/create
 2. Enter a label you can use to identify your website.

@@ -2,5 +2,10 @@
     "require": {
         "phpmailer/phpmailer": "^6.1",
         "google/recaptcha": "^1.2"
+    },
+    "config": {
+        "platform": {
+            "php": "7.4.8"
+        }
     }
 }
