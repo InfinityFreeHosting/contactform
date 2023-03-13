@@ -27,7 +27,7 @@ jobs:
       if: startsWith(github.ref, 'refs/tags/')
       with:
         name: contactform
-        path: contactform.zip
+        path: ./
     - uses: actions/create-release@v1
       id: create_release
       if: startsWith(github.ref, 'refs/tags/')
