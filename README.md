@@ -2,7 +2,7 @@
 
 A simple contact form with PHPMailer, reCAPTCHA and Bootstrap.
 
-Use this to provide a simple contact form on your own website, and send the messages with SMTP. Or use this as a basis or example to create your own contact form. 
+Use this to provide a simple contact form on your own website, and send the messages with SMTP. Or use this as a basis or example to create your own contact form.
 
 ## Getting Started
 
@@ -18,7 +18,7 @@ To be able to send messages with this contact form, you'll need a working SMTP s
 
 A simple, free option to use is Gmail. You can use Gmail to send your messages like so:
 
-1. Sign up for a free Gmail account. 
+1. Sign up for a free Gmail account.
 2. Enable Two-Factor Authentication on the Google account: https://myaccount.google.com/signinoptions/two-step-verification
 3. Generate an App Specific Password for the account: https://myaccount.google.com/apppasswords
 4. In the configuration file, set the SMTP Hostname `smtp.gmail.com`, enter your full Gmail address in the SMTP Username field and enter the App Specific Password in the SMTP Password field.
