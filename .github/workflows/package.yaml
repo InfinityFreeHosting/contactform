@@ -11,6 +11,8 @@ jobs:
     - uses: php-actions/composer@v6
       with:
         php_version: "7.4"
+        dev: no
+        args: --optimize-autoloader
     - run: |
         zip -r contactform.zip vendor *.php
     - uses: actions/upload-artifact@v3
