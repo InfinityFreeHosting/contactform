@@ -9,6 +9,7 @@
     "config": {
         "platform": {
             "php": "7.4.8"
-        }
+        },
+	"preferred-install": "dist"
     }
 }
