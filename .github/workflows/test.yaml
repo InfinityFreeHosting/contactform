@@ -10,4 +10,4 @@ jobs:
     - uses: actions/checkout@v4
     - uses: php-actions/composer@v6
     - uses: actions/setup-python@v5
-    - uses: pre-commit/action@v3
+    - uses: pre-commit/action@v3.0.1
