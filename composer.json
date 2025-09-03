@@ -1,15 +1,15 @@
 {
-    "require": {
-        "phpmailer/phpmailer": "^6.1",
-        "google/recaptcha": "^1.2"
+  "require": {
+    "phpmailer/phpmailer": "^6.1",
+    "google/recaptcha": "^1.2"
+  },
+  "require-dev": {
+    "friendsofphp/php-cs-fixer": "^3.4"
+  },
+  "config": {
+    "platform": {
+      "php": "8.3.19"
     },
-    "require-dev": {
-        "friendsofphp/php-cs-fixer": "^3.4"
-    },
-    "config": {
-        "platform": {
-            "php": "8.2.11"
-        },
-	"preferred-install": "dist"
-    }
+    "preferred-install": "dist"
+  }
 }
